@@ -1,6 +1,5 @@
-# Seuraava yritys.
 import sys
-# Oma tekemä muutos.
+
 def parse_limits():
     limits = []
 
