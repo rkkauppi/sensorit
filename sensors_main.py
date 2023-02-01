@@ -1,5 +1,5 @@
 import sys
-# Jonkun muun tekemä muutos.
+# Oma tekemä muutos.
 def parse_limits():
     limits = []
 
