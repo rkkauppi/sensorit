@@ -1,5 +1,4 @@
 import sys
-# Ensimmäinen muutos.
 
 def parse_limits():
     limits = []
@@ -37,11 +36,10 @@ def read_sensors():
 
 # This is the main finction for controlling the flow of the
 # implementation.
-# Jonkun muun tekemä muutos.
 def main():
     limits = parse_limits()
     sensor_data = []
-# Toinen.
+
     if len(limits) > 0 and check_limits(limits):
         sensor_data = read_sensors()
         # This is a mockup code that prints the sensor readings
