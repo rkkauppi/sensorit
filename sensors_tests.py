@@ -13,7 +13,7 @@ class TestSensors(unittest.TestCase):
     def test_check_limits1(self):
         limits = [18, 22]
         result = sensors_main.check_limits(limits)
-        self.assertTrue(result, True)
+        self.assertTrue(result)
     
     # The test case test_check_limits2 that tests the check_limits
     # with incorrect inputs (lower limit 22 and higher limit 18) and
